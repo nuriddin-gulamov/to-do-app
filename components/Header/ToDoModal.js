@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   modalContainer: {
     // Padding
     padding: 30,
-    paddingTop: 300,
+    paddingTop: 200,
 
     // Flex
     justifyContent: 'center',

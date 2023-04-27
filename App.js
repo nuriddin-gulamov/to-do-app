@@ -9,7 +9,7 @@ import ToDos from './components/Main/ToDos';
 import ToDoModal from './components/Header/ToDoModal';
 import { store } from './store/redux/store';
 import { addToDo, removeToDo } from './store/redux/todos';
-import { storeToDo } from './utilities/http';
+// import { storeToDo } from './utilities/http';
 
 // Redux Provider (App Wrapper)
 function ReduxProvider() {
@@ -54,7 +54,7 @@ function App() {
 
     setEnteredToDo('');
     setModalVisible(false);
-    storeToDo(data);
+    // storeToDo(data);
     dispatch(addToDo({ newToDo }));
   }
 
